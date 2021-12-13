@@ -89,13 +89,14 @@
 }
 .section_two_container{
     width: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 .section_three{
-    padding: 160px 20px;
+    padding: 120px 20px;
     width: 100%;
     height: auto;
     display: flex;

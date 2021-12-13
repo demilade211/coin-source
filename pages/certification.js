@@ -1,48 +1,16 @@
+import React from 'react'
 import Image from 'next/image'
 import {section_container,section_mini_container,section_links,section_paragraphs,section_two,section_two_container,section_three,section_three_container,section_three_mini_container,footer,footer_container}  from '../styles/homePage.module.css'
 
-export default function Home() {
-  return (
-    <>
-      <main >
-        <section className={section_container}>
-            <div className={section_mini_container}>
-              <Image src="/images/s1.png" alt="" width={50} height={50}/>
-							<a className={section_links} href="#"><h4 class="pt-30 pb-20">Insert BTC Address</h4></a>
-							<p className={section_paragraphs}>
-								Visit the Investment Page to initiate a transaction by inserting your btc address. This is the address that will receive the automatically doubled bitcoins
-							</p>
-            </div>
-            <div className={section_mini_container}>
-              <Image src="/images/s2.png" alt="" width={50} height={50}/>
-							<a className={section_links} href="#"><h4 class="pt-30 pb-20">Send Investment</h4></a>
-							<p className={section_paragraphs}>
-								Subsequent to step 1, you'll be taken to the deposit page where you are to send payment to the provided address.</p>
-            </div>
-            <div className={section_mini_container}>
-              <Image src="/images/s3.png" alt="" width={50} height={50}/>
-							<a className={section_links} href="#"><h4 class="pt-30 pb-20">Track Investment</h4></a>
-							<p className={section_paragraphs}>
-								Once payment is sent. It will be automatically confirmed, after which you can track the progress of your investment by inserting your receiving wallet address provided upon registration in our tracking system.</p>
-            </div>
-        </section>
-        <section className={section_two}>
-            <div className={section_two_container}>
-              <Image src="/images/about-img.jpg" alt="" width={800} height={650}/>
-            </div>
-            <div className={section_two_container} style={{backgroundColor:"#1a1a1a",color:"white",padding:"20px"}}>
-            <Image src="/images/ico.png" alt="" width={40} height={40}/>
-							<h1 >
-								Welcome to CRYPTO CLOUD HASHING<br/>
-							
-							</h1>
-							<p className={section_paragraphs}>
-								Cryptocurrency is an innovative payment network and a new kind of money.<br/><br/>
-							we have professionals in the finance market to ensure stable management of every investors funds in our possession. Our main goals are: long-term, timely customer support, operative and automatic control of assets balance and row of other solutions contributing to the successful development of our project. Join us right now! We guarantee profitable and secured investments
-							</p>
-            </div>
-        </section>
-        <section className={section_three}>
+const certification = () => {
+    return (
+        <>
+            <section className={section_three}>
+                <h1>CERTIFICATION</h1>
+                <Image src="/images/fc.jpg" alt="" width={570} height={400}/>
+                <Image src="/images/ifc.jpg" alt="" width={500} height={400}/>
+            </section>
+            <section className={section_three} style={{padding:"10px 20px"}}>
             <h1>Our Features</h1>
 						<p className={section_paragraphs}>
 							Cryptocurrency is the simplest way to exchange money online at very low cost and our company provide a good investment service which entails
@@ -67,7 +35,8 @@ export default function Home() {
             </div>
             
         </section>
-      </main>
-    </>
-  )
+        </>
+    )
 }
+
+export default certification

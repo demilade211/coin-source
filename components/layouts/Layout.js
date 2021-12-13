@@ -2,7 +2,7 @@ import React from "react";
 import HeadTags from "./HeadTags";
 import Navbar from '../FixedNavbar'
 import {hero_container,headings,paragraphs,inside_hero_container,button} from "../../styles/homePage.module.css"
-
+import Footer from "../Footer";
 
 function Layout({children}) {
   return (
@@ -16,11 +16,11 @@ function Layout({children}) {
             <p className={paragraphs}>Invest in Bitcoin, Join CRYPTO CLOUD HASHING, Trusted and Original Bitcoin Multiplier</p>
             <button className={button}>Login</button>
           </div>
-
         </section>
         <section >
           {children}
         </section>
+        <Footer/>
     </div>
   )
 }
