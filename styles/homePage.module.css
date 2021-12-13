@@ -25,13 +25,14 @@
     background-color: rgba(4,9,30,0.85);
 }
 .headings{
-    font-size: 7vmax;
+    font-size: 6vmax;
     font-weight: 700;
     font-family:"Poppins",sans-serif;
 }
 .paragraphs{
     font-size: 0.8em;
     font-family:"Poppins",sans-serif;
+    text-align: center;
 }
 .inside_hero_container{
     color: white;

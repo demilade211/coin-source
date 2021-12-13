@@ -9,7 +9,7 @@ const FixedNavbar = () => {
         <header>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand href="#home"><Image src="/images/logo.png" alt="log" width={190} height={40}/></Navbar.Brand>
+                <Navbar.Brand href="#home"><Image src="/images/logo.png" alt="log" width={150} height={40}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
