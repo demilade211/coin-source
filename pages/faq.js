@@ -4,7 +4,7 @@ import {faq_container}  from '../styles/faq.module.css'
 const faq = () => {
     return (
         <section className={faq_container}>
-            <h3 class="about-title mb-30">FAQ</h3>
+            <h3 className="about-title mb-30">FAQ</h3>
             <p><strong>How CRYPTO CLOUD HASHING System double Your Bitcoins?<br/></strong>
 Our bitcoin multiply system using API services to connect with Smart Bitcoin buy/sell Bots, once system detected a valid Bitcoin Investment from bitcoin multiplier system it will auto send related data to these Bitcoin Buy/Sell Bots to executive Buy/Sell Queries on different Bitcoin Exchanges. Once sell query executive it will again looking for buy from another exchange in low cost, this whole process depend on which plan you have chose for Bitcoin Investment, all process is automatic & provide us enough profit to process your payout & keep running our project, we are best bitcoin multiplier in world, Join us to multiply your bitcoin within 24 hours.<br/><br/>
 

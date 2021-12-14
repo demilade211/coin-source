@@ -19,8 +19,6 @@ const FixedNavbar = () => {
                     <Nav >
                         <Link href="/"><Nav.Link className={nav_link} href="#features">HOME</Nav.Link></Link>
                         <Link href="about_us"><Nav.Link className={nav_link} href="about_us">ABOUT US</Nav.Link></Link>
-                        <Nav.Link href="#deets">REGISTER</Nav.Link>
-                        <Nav.Link href="#features">LOGIN</Nav.Link>
                         <Link href="plans"><Nav.Link href="#pricing">PLANS</Nav.Link></Link>
                         <Link href="faq"><Nav.Link href="#features">FAQ</Nav.Link></Link>
                         <Link href="certification"><Nav.Link href="#pricing">CERTIFICATION</Nav.Link></Link>
