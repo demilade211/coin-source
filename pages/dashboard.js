@@ -1,6 +1,6 @@
 import {useState} from "react";
 import { useRouter } from 'next/router'
-import {container,left,right,inside_left,mobile_nav} from "../styles/dashboard.module.css"
+import {container,left,right,inside_left,mobile_nav,info_container,inside_info_container} from "../styles/dashboard.module.css"
 import Image from 'next/image'
 import Form from 'react-bootstrap/Form';
 import {logOut} from "../utils/authUser"
@@ -37,6 +37,32 @@ const dashboard = ({user}) => {
     return (
         <section className={container}>
             <h1>Welcome to your dashboard {user.name}</h1>
+            <div className={info_container}>
+                <div className={inside_info_container} style={{backgroundColor:"#00A859"}}>
+                    <strong>INVESTMENT PLAN</strong>
+                </div>
+                <div className={inside_info_container}>
+                    <p>DELUXE</p>
+                </div>
+                <div className={inside_info_container} style={{backgroundColor:"#00A859"}}>
+                    <strong>TOTAL DEPOSIT </strong>
+                </div>
+                <div className={inside_info_container}>
+                    <p>0.5BTC</p>
+                </div>
+                <div className={inside_info_container} style={{backgroundColor:"#00A859"}}>
+                    <strong>RETURN ON INVESTMENT </strong>
+                </div>
+                <div className={inside_info_container}>
+                    <p>5.0 BTC</p>
+                </div>
+                <div className={inside_info_container} style={{backgroundColor:"#00A859"}}>
+                    <strong>REFFERAL BONUS</strong>
+                </div>
+                <div className={inside_info_container}>
+                    <p>5.56706</p>
+                </div>
+            </div>
             <div style={{display:"flex",width:"100%",padding:"40px 0px"}}>
                 <div className={left}>
                     <div className={inside_left}>
